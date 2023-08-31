@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+/* font-family: 'Outfit', sans-serif; */
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    width: 270px;
+    margin: 130px auto;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.nft-img .equilibrium {
+    width: 270px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.view {
+    background-color: hsl(178, 100%, 50%);
+    text-align: center;
+    position: relative;
+    top: -274px;
+    padding: 109px 0;
+    opacity: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+.main {
+    position: relative;
+    top: -270px;
+}
+
+.num {
+    color: white;
+    cursor: pointer;
+}
+
+.def {
+    color: hsl(215, 51%, 70%);
+}
+
+.price-day {
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.price img {
+    width: 10px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+.day {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+
+.day img {
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user img {
+   height: 30px;
+   border: 1px solid white;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+
+.user p {
+    color: hsl(215, 51%, 70%);
+}
+
+span {
+    color: white;
+    cursor: pointer;
+}
+
+.nft-img:hover .view:hover{
+    opacity: 0.5;
+}
+
+.num:hover, span:hover {
+    color: hsl(178, 100%, 50%);
+}
